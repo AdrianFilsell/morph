@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dib">
+      <UniqueIdentifier>{c0b549bb-948a-4bb0-8115-4016919cce55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="splitter">
+      <UniqueIdentifier>{1416601e-005d-4020-86a6-6c351f7bc45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{7f65b934-8d22-4f25-9eb8-e1e615f9fe81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dib\jpeg">
+      <UniqueIdentifier>{28cf9783-fb04-43f5-b2ae-1d7b05338276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{3019f7e7-0858-4601-8abe-3a709495e5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="triangulate">
+      <UniqueIdentifier>{d4638249-235a-43dc-9255-8eabd44d050c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gif">
+      <UniqueIdentifier>{854aa333-965d-499f-8167-86d3cfc3a867}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="splitterwnd.h">
+      <Filter>splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="2d.h" />
+    <ClInclude Include="morph.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="morphDlg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="dib.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="dibwnd.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\cderror.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\cdjpeg.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jdct.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jerror.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jinclude.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jmemsys.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jmorecfg.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jpegint.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jpeglib.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\jversion.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\jpeg-8c\transupp.h">
+      <Filter>dib\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h" />
+    <ClInclude Include="lerpwnd.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="lerpdlg.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_parallelfor.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_taskscheduler.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="serialise.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_ocv.h">
+      <Filter>triangulate</Filter>
+    </ClInclude>
+    <ClInclude Include="morphcomponent.h">
+      <Filter>triangulate</Filter>
+    </ClInclude>
+    <ClInclude Include="primitive.h">
+      <Filter>triangulate</Filter>
+    </ClInclude>
+    <ClInclude Include="gif.h">
+      <Filter>gif</Filter>
+    </ClInclude>
+    <ClInclude Include="hittest.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="hint.h">
+      <Filter>dib</Filter>
+    </ClInclude>
+    <ClInclude Include="exportgifdlg.h">
+      <Filter>gif</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="splitterwnd.cpp">
+      <Filter>splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="morphDlg.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="morph.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="dib.cpp">
+      <Filter>dib</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg.cpp">
+      <Filter>dib</Filter>
+    </ClCompile>
+    <ClCompile Include="dibwnd.cpp">
+      <Filter>dib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jaricom.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcapimin.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcapistd.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcarith.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jccoefct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jccolor.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcdctmgr.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jchuff.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcinit.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmainct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmarker.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcmaster.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcomapi.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcparam.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcprepct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jcsample.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jctrans.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdapimin.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdapistd.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdarith.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdatadst.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdatasrc.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdcoefct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdcolor.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jddctmgr.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdhuff.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdinput.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmainct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmarker.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmaster.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdmerge.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdpostct.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdsample.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jdtrans.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jerror.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctflt.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctfst.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jfdctint.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctflt.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctfst.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jidctint.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jmemmgr.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jmemnobs.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jquant1.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jquant2.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\jutils.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\jpeg-8c\transupp.c">
+      <Filter>dib\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="lerpwnd.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="lerpdlg.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_parallelfor.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="serialise.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="morphcomponent.cpp">
+      <Filter>triangulate</Filter>
+    </ClCompile>
+    <ClCompile Include="exportgifdlg.cpp">
+      <Filter>gif</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="morph.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\morph.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\morph.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar_32bpp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
