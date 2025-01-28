@@ -13,17 +13,18 @@ Written using MFC/C++/eigenlib/opencv/jpeglib/giflib, more details can be found 
 
 Pre built Hulk morph project:
 
-![Alt text](presets/hulk.png?raw=true "example scene")
+![Alt text](presets/hulk.png?raw=true "example morph project")
 
-Example of a scene with texture/bump map materials:
+Pre built 8bit morph project:
 
-![Alt text](/bump_tex_cover.png?raw=true "example texture/bump map scene")
+![Alt text](presets/8bit.png?raw=true "example morph project")
 
-Examples of a scene with cel shading:
+Pre built Cosworth morph project:
 
-![Alt text](/cel_shading_cover.png?raw=true "example texture/cel_shading scene")
-![Alt text](/cel_shading_2_cover.png?raw=true "example texture/cel_shading scene 2")
+![Alt text](presets/cosworth.png?raw=true "example morph project")
 
-Example of a scene with shadow maps:
+Example of a morph project animated GIF exports:
 
-![Alt text](/shadow_cover.png?raw=true "example shadow map scene")
+![Alt text](presets/hulk.gif?raw=true "animated gif")
+![Alt text](presets/8bit.gif?raw=true "animated gif")
+![Alt text](presets/cosworth.gif?raw=true "animated gif")
