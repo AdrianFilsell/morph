@@ -2,8 +2,8 @@ C++ 2D image morph ( Delauney triangulation ).
 
 Supports:
    Create/Load/Save morph projects - Export morph project ( animated GIF ) -
-   Morph source/destination images - Create/Delete/Link morph features -
-   Point morph feature - Freehand path morph feature -
+   Morph source/destination images - Create/Delete/Link image features -
+   Point feature - Freehand path feature -
    Play morph animation - Three pre build morph projects -
    Multi core aware.
    
