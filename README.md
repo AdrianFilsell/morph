@@ -1,10 +1,11 @@
 C++ 2D image morph ( Delauney triangulation ). Pre built statically linked EXE in 'bin' folder.
 
 Supports:
-   Create/Load/Save morph projects - Export morph project ( animated GIF ) -
+   Create/Load/Save morph projects -
+   Play morph animation - Export morph project ( animated GIF ) -
    Morph source/destination images - Create/Delete/Link image features -
    Point feature - Freehand path feature -
-   Play morph animation - Three pre build morph projects -
+   Three pre build morph projects -
    Multi core aware.
    
 Written using MFC/C++/eigenlib/opencv/jpeglib/giflib, more details can be found here:
