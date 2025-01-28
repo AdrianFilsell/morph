@@ -13,7 +13,7 @@ Written using MFC/C++/eigenlib/opencv/jpeglib/giflib, more details can be found 
 
 Pre built Hulk morph project:
 
-![Alt text](/cover.png?raw=true "example scene")
+![Alt text](presets/hulk.png?raw=true "example scene")
 
 Example of a scene with texture/bump map materials:
 
