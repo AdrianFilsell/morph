@@ -29,4 +29,4 @@ Example of a morph project animated GIF exports:
 ![Alt text](presets/hulk.gif?raw=true "animated gif")
 ![Alt text](presets/8bit.gif?raw=true "animated gif")
 ![Alt text](presets/cosworth.gif?raw=true "animated gif")
-![Alt text](presets/tigerbelly.gif?raw=true "animated gif")
+![Alt text](presets/badfriends.gif?raw=true "animated gif")
