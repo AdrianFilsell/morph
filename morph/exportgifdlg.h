@@ -32,7 +32,8 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 	afx_msg void OnBrowse();
-
+	afx_msg void OnBounce(void);
+	
 	afx_msg void OnFPSTextKillFocus();
 	afx_msg void OnFramesTextKillFocus();
 	afx_msg void OnWidthTextKillFocus();

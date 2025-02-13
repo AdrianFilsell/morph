@@ -56,6 +56,7 @@ void exportgifdlg::DoDataExchange(CDataExchange* pDX)
 
 BEGIN_MESSAGE_MAP(exportgifdlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BROWSE,exportgifdlg::OnBrowse)
+	ON_BN_CLICKED(IDC_BOUNCE_CHECK,exportgifdlg::OnBounce)
 
 	ON_EN_KILLFOCUS(IDC_FPS_EDIT,OnFPSTextKillFocus)
 	ON_EN_KILLFOCUS(IDC_FRAMES_EDIT,OnFramesTextKillFocus)
@@ -78,6 +79,11 @@ BOOL exportgifdlg ::OnInitDialog()
 }
 
 // exportgifdlg message handlers
+
+void exportgifdlg::OnBounce(void)
+{
+	UpdateData();
+}
 
 void exportgifdlg::OnBrowse()
 {
